@@ -70,7 +70,9 @@ window.onload = function () {
       infoBox.appendChild(nameValue);
       infoBox.appendChild(numValue);
       infoBox.appendChild(callButton)
-      
+      Name.value=""
+      number.value=""
+        profilePicInput.value=""
       Area.appendChild(box);
     });
   };
